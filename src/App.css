@@ -14,3 +14,41 @@ p {
     margin-left: 30px;
     font-size : 25px;
 }
+
+.recode {
+    margin-left : 30px;
+    margin-top : 20px;
+    width : 350px;
+    height : 100px;
+    font-size : 30px;
+    background-color : #CECECE;
+    border-radius : 35px;
+    border : 0;
+    font-weight: 600;
+}
+
+.look {
+    margin-left : 155px;
+    margin-top : 20px;
+    width : 350px;
+    height : 100px;
+    font-size : 30px;
+    background-color : #CECECE;
+    border-radius : 35px;
+    border : 0;
+    font-weight: 600;
+}
+
+.check {
+    float : right;
+    margin-right: 30px;
+    margin-left : 30px;
+    margin-top : 20px;
+    width : 350px;
+    height : 100px;
+    font-size : 30px;
+    background-color : #CECECE;
+    border-radius : 35px;
+    border : 0;
+    font-weight: 600;
+}
