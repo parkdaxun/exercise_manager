@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import './App.css';
+import './home.css';
 
 export default class home extends React.Component {
 
