@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import './App.css';
 
-export default class home extends React.Component {
+export default class Example extends React.Component {
 
     constructor(props) {
         super(props);
@@ -17,15 +17,44 @@ export default class home extends React.Component {
 
                 </div>
                 <div className="exercise">
-                    <div className="exercise1">크로스 런지</div>
-                    <div className="exercise2">슬로우 버피</div>
-                    <div className="exercise3">마운틴 클라이머</div>
-                    <div className="exercise4">스쿼트</div>
-                    <div className="exercise5">스쿼트 오버헤드 프레스</div>
-                    <div className="exercise6">시티드 넥 탭</div>
+                    <div className="exercise1">
+                        크로스 런지
+                        <div className="info">
+                            힙 집중
+                        </div>
+                    </div>
+                    <div className="exercise2">
+                        슬로우 버피
+                        <div className="info">
+                            근력 및 전신 근육 발달
+                        </div>
+                    </div>
+                    <div className="exercise3">
+                        마운틴 클라이머
+                        <div className="info">
+                            코어 자극 및 전신 유산소
+                        </div>
+                    </div>
+                    <div className="exercise4">
+                        스쿼트
+                        <div className="info">
+                            앉았다 일어나기, 하체 집중
+                        </div>
+                    </div>
+                    <div className="exercise5">
+                        스쿼트 오버헤드 프레스
+                        <div className="info">
+                            전신 칼로리 태우기
+                        </div>
+                    </div>
+                    <div className="exercise6">
+                        시티드 넥 탭
+                        <div className="info">
+                            팔뚝살 앞쪽
+                        </div>
+                    </div>
                 </div>
             </div>
-
         );
     };
 };
