@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
+import './Example.css';
 import Example from './Example.js';
-import home from './home.js';
+import Topinfo from './Topinfo.js';
 
 function App() {
   return (
       <div>
-          <home/>
+          <Topinfo/>
           <Example/>
       </div>
   );

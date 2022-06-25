@@ -1,0 +1,79 @@
+.recode {
+    margin-left : 30px;
+    margin-top : 20px;
+    width : 350px;
+    height : 100px;
+    font-size : 30px;
+    background-color : #CECECE;
+    border-radius : 35px;
+    border : 0;
+    font-weight: 600;
+}
+
+.look {
+    margin-left : 155px;
+    margin-top : 20px;
+    width : 350px;
+    height : 100px;
+    font-size : 30px;
+    background-color : #CECECE;
+    border-radius : 35px;
+    border : 0;
+    font-weight: 600;
+}
+
+.check {
+    float : right;
+    margin-right: 30px;
+    margin-left : 30px;
+    margin-top : 20px;
+    width : 350px;
+    height : 100px;
+    font-size : 30px;
+    background-color : #CECECE;
+    border-radius : 35px;
+    border : 0;
+    font-weight: 600;
+}
+
+.info {
+    font-size : 20px;
+    line-height: 10px;
+    font-weight: 400;
+}
+
+.right {
+    float : right;
+    margin-right : 30px;
+    margin-top : 40px;
+    margin-bottom: 40px;
+    text-align : center;
+    font-size : 30px;
+    font-weight: 600;
+    width : 650px;
+    height : 350px;
+    border-width : 2px;
+    border-color: black;
+    border-radius : 30px;
+    background-color: white;
+    box-shadow : 3px 3px 10px grey;
+    line-height: 200px;
+}
+
+.left {
+    float : left;
+    margin-left : 30px;
+    margin-top : 40px;
+    margin-bottom : 40px;
+    text-align : center;
+    font-size : 30px;
+    font-weight: 600;
+    width : 650px;
+    height : 350px;
+    border-width : 2px;
+    border-color: black;
+    border-radius : 30px;
+    background-color: white;
+    box-shadow : 3px 3px 10px grey;
+    line-height: 200px;
+}
