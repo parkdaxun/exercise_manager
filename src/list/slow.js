@@ -7,12 +7,4 @@ export default class slow extends React.Component {
         super(props);
     }
 
-    render () {
-        return (
-            <div className="nav">
-                <h2>운동 매니저</h2>
-                <hr></hr>
-            </div>
-        );
-    };
 }
