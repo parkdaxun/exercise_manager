@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import './exercise.css';
+import React from "react";
+import './cross.css';
 
 export default class slow extends React.Component {
 
@@ -7,4 +7,14 @@ export default class slow extends React.Component {
         super(props);
     }
 
-}
+    render() {
+        return (
+            <div className="info">
+                <img className="picture" src={require("./images/slow.png")}/>
+                <div className="video">
+                    <a href="https://youtu.be/4leACgpgUTI">영상 시청하기</a>
+                </div>
+            </div>
+        );
+    };
+};

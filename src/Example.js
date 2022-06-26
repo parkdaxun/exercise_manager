@@ -26,7 +26,7 @@ export default class Example extends React.Component {
                         </Link>
                     </div>
                     <div className="right">
-                        <Link to="./list/slow.js">
+                        <Link to="slow">
                             슬로우 버피
                             <div className="info">
                                 근력 및 전신 근육 발달
@@ -35,7 +35,7 @@ export default class Example extends React.Component {
 
                     </div>
                     <div className="left">
-                        <Link to="./list/mountain.js">
+                        <Link to="mountain">
                             마운틴 클라이머
                             <div className="info">
                                 코어 자극 및 전신 유산소
@@ -43,7 +43,7 @@ export default class Example extends React.Component {
                         </Link>
                     </div>
                     <div className="right">
-                        <Link to="./list/squat.js">
+                        <Link to="squat">
                             스쿼트
                             <div className="info">
                                 앉았다 일어나기, 하체 집중
@@ -51,7 +51,7 @@ export default class Example extends React.Component {
                         </Link>
                     </div>
                     <div className="left">
-                        <Link to="./list/overhead.js">
+                        <Link to="overhead">
                             스쿼트 오버헤드 프레스
                             <div className="info">
                                 전신 칼로리 태우기
@@ -59,10 +59,10 @@ export default class Example extends React.Component {
                         </Link>
                     </div>
                     <div className="right">
-                        <Link to="./list/tap.js">
-                            시티드 넥 탭
+                        <Link to="tap">
+                            바이시클 크런치
                             <div className="info">
-                                팔뚝살 앞쪽
+                                전체적인 복근 자극
                             </div>
                         </Link>
                     </div>
