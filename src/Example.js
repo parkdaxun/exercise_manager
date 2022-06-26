@@ -18,7 +18,7 @@ export default class Example extends React.Component {
                 </div>
                 <div className="exercise">
                     <div className="left">
-                        <Link to="./list/cross.js">
+                        <Link to="cross">
                             크로스 런지
                             <div className="info">
                                 힙 집중

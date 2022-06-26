@@ -1,6 +1,5 @@
 import React from "react";
 import './cross.css';
-import cross_run from './image/cross_run.png';
 
 export default class cross extends React.Component {
 
@@ -11,8 +10,8 @@ export default class cross extends React.Component {
     render() {
         return (
             <div className="info">
-                <img src={cross_run}/>
-                <text1>크로스 런지</text1>
+                <img className="cross_run" src={require("./images/cross_run.png")}/>
+                <text1>시작하기</text1>
             </div>
         );
     };
