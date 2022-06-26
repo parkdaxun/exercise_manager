@@ -12,9 +12,8 @@ export default class Example extends React.Component {
         return (
             <div>
                 <div>
-                    <button className="recode">운동 기록하기</button>
-                    <button className="look">운동 목록보기</button>
-                    <button className="check">기록 확인하기</button>
+                    <button className="recode">영상 시청하기</button>
+                    <button className="look">운동 설명보기</button>
                 </div>
                 <div className="exercise">
                     <div className="left">
