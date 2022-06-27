@@ -13,10 +13,10 @@ export default class Example extends React.Component {
             <div>
                 <div>
                     <Link to = "/">
-                        <button className="recode">영상 시청하기</button>
+                        <button className="r">영상 시청하기</button>
                     </Link>
                     <Link to = "introduce">
-                        <button className="look">운동 설명보기</button>
+                        <button className="l">운동 설명보기</button>
                     </Link>
                 </div>
                 <div className="exercise">
