@@ -12,8 +12,12 @@ export default class Example extends React.Component {
         return (
             <div>
                 <div>
-                    <button className="recode">영상 시청하기</button>
-                    <button className="look">운동 설명보기</button>
+                    <Link to = "/">
+                        <button className="recode">영상 시청하기</button>
+                    </Link>
+                    <Link to = "introduce">
+                        <button className="look">운동 설명보기</button>
+                    </Link>
                 </div>
                 <div className="exercise">
                     <div className="left">
@@ -31,7 +35,6 @@ export default class Example extends React.Component {
                                 근력 및 전신 근육 발달
                             </div>
                         </Link>
-
                     </div>
                     <div className="left">
                         <Link to="mountain">

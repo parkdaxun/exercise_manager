@@ -9,6 +9,7 @@ import Squat from './list/squat.js';
 import Tap from './list/tap.js';
 import Overhead from './list/overhead.js';
 import Topinfo from './Topinfo.js';
+import Introduce from './introduce.js';
 
 
 function App() {
@@ -24,9 +25,9 @@ function App() {
                     <Route path="/squat" element={<Squat/>}/>
                     <Route path="/overhead" element={<Overhead/>}/>
                     <Route path="/tap" element={<Tap/>}/>
+                    <Route path="/introduce" element={<Introduce/>}/>
                 </Routes>
             </BrowserRouter>
-
         </div>
     );
 }
