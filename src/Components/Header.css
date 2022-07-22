@@ -1,0 +1,48 @@
+.Nav {
+    position: relative;
+    width : 100%;
+    height: 60px;
+}
+
+.logo {
+    width : 25px;
+    height : 25px;
+    margin-left : 20px;
+    margin-top : 12px;
+    position: relative;
+}
+
+.main {
+    font-size : 20px;
+    font-weight: bold;
+    margin-left : 20px;
+    margin-top : 13px;
+    position: absolute;
+}
+
+.look_info {
+    color : gray;
+    font-weight: bold;
+    font-size : 20px;
+    margin-left : 480px;
+    margin-top : 13px;
+    position: absolute;
+}
+
+.look_recode {
+    color : gray;
+    font-weight: bold;
+    font-size : 20px;
+    margin-left : 690px;
+    margin-top : 13px;
+    position: absolute;
+}
+
+.howto {
+    color : gray;
+    font-weight: bold;
+    font-size : 20px;
+    margin-left : 930px;
+    margin-top : 13px;
+    position: absolute;
+}
