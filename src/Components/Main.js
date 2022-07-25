@@ -1,5 +1,6 @@
 import React from 'react';
 import './Main.css';
+import Footer from './Footer';
 
 export default class Main extends React.Component {
     constructor(props) {
@@ -13,6 +14,7 @@ export default class Main extends React.Component {
                     className="intro"
                     src={require("./images/exercise_img.png")}>
                 </img>
+                <Footer/>
             </div>
         );
     };

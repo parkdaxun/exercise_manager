@@ -1,0 +1,25 @@
+h1 {
+    margin-left: 20px;
+}
+
+.box {
+    margin-left : 30px;
+    margin-top : 20px;
+    width : 1385px;
+    height : 60px;
+    border : 1px solid black;
+    border-radius: 10px;
+    text-align : center;
+    padding : 10px;
+    margin-bottom : 30px;
+    text-decoration : none;
+    color : black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.title {
+    font-weight: bold;
+    font-size : 20px;
+    text-decoration : none;
+}
