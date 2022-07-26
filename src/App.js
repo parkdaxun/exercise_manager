@@ -11,6 +11,7 @@ import Mountain from './Components/pages/mountain';
 import Slow from './Components/pages/slow';
 import Squat from './Components/pages/squat';
 
+
 function App() {
     return (
         <div>
