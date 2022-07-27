@@ -3,7 +3,6 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Header from './Components/Header';
 import Main from './Components/Main';
 import Look from './Components/look';
-import Recode from './Components/recode';
 import About from './Components/about';
 import Cross from './Components/pages/cross';
 import Crunchy from './Components/pages/crunchy';
@@ -20,7 +19,6 @@ function App() {
                 <Routes>
                     <Route exact path="/" element={<Main/>}/>
                     <Route path="/look" element={<Look/>}/>
-                    <Route path="/recode" element={<Recode/>}/>
                     <Route path="/about" element={<About/>}/>
                     <Route path="/look/cross" element={<Cross/>}/>
                     <Route path="/look/crunchy" element={<Crunchy/>}/>

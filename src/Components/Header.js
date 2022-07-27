@@ -21,9 +21,6 @@ export default class Header extends React.Component {
                     <Link to = "look">
                         <text className="look_info">운동 정보 보기</text>
                     </Link>
-                    <Link to = "recode">
-                        <text className="look_recode">내 운동 기록 보기</text>
-                    </Link>
                     <Link to = "about">
                         <text className="howto">사이트 사용 방법</text>
                     </Link>

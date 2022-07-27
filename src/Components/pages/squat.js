@@ -12,7 +12,6 @@ export default class squat extends React.Component {
             <>
                 <h1>스쿼트</h1>
                 <text className="explain">맨몸 스쿼트로 허벅지와 코어 등 많은 부위의 근육을 활성화 시키는 운동</text>
-                <button className="count">갯수 입력하기</button>
                 <ReactPlayer className="youtube" url="https://www.youtube.com/watch?v=kz84Fc6HGu4&t=253s" playing controls />
             </>
         );
